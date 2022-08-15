@@ -1,0 +1,4 @@
+<layout *ngIf="isAuthenticated">
+  <not-found-content></not-found-content>
+</layout>
+<not-found-content *ngIf="!isAuthenticated"></not-found-content>

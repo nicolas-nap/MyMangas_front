@@ -1,0 +1,16 @@
+.content-404 {
+  background: rgb(28,25,85);
+  background: radial-gradient(circle, rgba(28,25,85,1) 44%, rgba(9,9,121,1) 96%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 200px);
+  > div {
+    margin: 1vh;
+    background: beige;
+    text-align: center;
+    h1 {
+      font-size: 80px;
+    }
+  }
+}
